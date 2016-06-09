@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script data-require="jquery@*" data-semver="2.2.0" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <link data-require="bootstrap-css@3.3.6" data-semver="3.3.6" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <!--Title-->
+  <body>
+    <header>
+      <h2 class="text-center">El mejor buscador de gifs del universo.</h2>
+    </header>
+
+    <!--Search Form-->
+    <div class="row">
+      <div class="col-lg-4 col-lg-offset-4">
+        <div class="input-group">
+            <input type="text" class="form-control searchInput" placeholder="Busca un gif" />
+            <span class="input-group-btn">
+              <button class="btn btn-default search" type="button">Buscar !</button>
+            </span>
+        </div>
+      </div>
+    </div>
+
+    <!--Gif display-->
+    <div class="display">
+      <div class="error">
+          <h2 class="errorText text-center">Hubo un error. Pruebe nuevamente.</h2>
+    </div>
+
+    <!--Loading-->
+    <div class="modal"></div>
+  </body>
+</html>
